@@ -1,0 +1,28 @@
+export class contactPage {
+  constructor(page) {
+    this.page = page;
+    this.username = page.getByRole('textbox', { name: 'John Doe' });
+    // Using data-testid as it's a best practice mentioned in Playwright docs
+    this.email = page.getByRole('textbox', { name: 'john@example.com' });
+    this.subjeect=page.getByRole('textbox', { name: 'How can we help?' });
+    this.message=page.getByRole('textbox', { name: 'Provide details...' });
+    this.submitButton = page.getByRole('button', { name: 'Send Message' });
+  }
+    
+  async navigate() {
+    // Replace with your actual local or hosted URL
+    await this.page.goto('https://daily-wage-hub--vinayksgowda123.replit.app/');
+     await this.page.getByRole('link', { name: 'Contact', exact: true }).click();
+  }
+
+  async fillForm(username,email,subject,message) {
+    await this.username.fill(username);
+    await this.email.fill(email);
+    await this.subjeect.fill(subject);
+    await this.message.fill(message);
+  }
+
+  async submit() {
+    await this.submitButton.click();
+  }
+}
