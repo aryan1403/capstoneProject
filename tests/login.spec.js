@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { loginPage } from '../POJO/login';
-import { signUpPage } from '../POJO/signup';
+import { loginPage } from '../POM/login';
+import { signUpPage } from '../POM/signup';
 
 [
     {name:"Vinay K S",email:"vinayksgowda123567@gmail.com",phone:"1234567890",password:"vinay@123"},

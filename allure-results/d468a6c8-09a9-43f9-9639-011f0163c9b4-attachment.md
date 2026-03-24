@@ -1,0 +1,79 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Logo TaskMates" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=e9]
+          - generic [ref=e10]: TaskMates
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e13] [cursor=pointer]:
+            - /url: /search
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e16]:
+          - link "My Bookings" [ref=e17] [cursor=pointer]:
+            - /url: /history
+          - link "Profile" [ref=e18] [cursor=pointer]:
+            - /url: /profile
+          - generic [ref=e20]: Hi, Vinay
+          - button [ref=e21]:
+            - img [ref=e22]
+    - main [ref=e25]:
+      - generic [ref=e27]:
+        - heading "Account Settings" [level=1] [ref=e28]
+        - generic [ref=e29]:
+          - generic [ref=e32]:
+            - img [ref=e34]
+            - heading "Vinay K S" [level=3] [ref=e37]
+            - paragraph [ref=e38]:
+              - img [ref=e39]
+              - text: vinayksgowda123456@gmail.com
+            - paragraph [ref=e42]: Member since Mar 2026
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - heading "Personal Information" [level=3] [ref=e48]
+              - generic [ref=e49]:
+                - text: Full Name
+                - textbox [ref=e50]: Vinay K S
+              - generic [ref=e51]:
+                - text: Phone Number
+                - textbox [active] [ref=e52]
+                - paragraph [ref=e53]: Valid phone number required
+              - generic [ref=e54]:
+                - text: Email Address (Cannot be changed)
+                - textbox [disabled] [ref=e55]: vinayksgowda123456@gmail.com
+            - button "Save Changes" [ref=e57]
+    - contentinfo [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - img "Logo" [ref=e63]
+            - generic [ref=e64]: TaskMates
+          - paragraph [ref=e65]: Your trusted platform for daily wage services. We connect skilled professionals with households and businesses that need them.
+        - generic [ref=e66]:
+          - heading "Links" [level=4] [ref=e67]
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - link "Home" [ref=e70] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e71]:
+              - link "Services" [ref=e72] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=e73]:
+              - link "Contact Us" [ref=e74] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e75]:
+          - heading "Contact" [level=4] [ref=e76]
+          - list [ref=e77]:
+            - listitem [ref=e78]: support@taskmates.com
+            - listitem [ref=e79]: +91 98765 43210
+      - generic [ref=e80]: © 2026 TaskMates. All rights reserved.
+  - region "Notifications (F8)":
+    - list
+```

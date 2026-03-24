@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { loginPage } from '../POJO/login';
-import { signUpPage } from '../POJO/signup';
+import { loginPage } from '../POM/login';
+import { signUpPage } from '../POM/signup';
 test('test1', async ({ page }) => {
   await page.goto('https://daily-wage-hub--vinayksgowda123.replit.app/');
   await page.getByRole('link', { name: 'Sign In' }).click();

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { contactPage } from '../POJO/contact';
+import { contactPage } from '../POM/contact';
 
 
 [  {name:"Vinay K S",email:"vinay@example.com",subject:"How can we help?",message:"I have a question about your services."},
