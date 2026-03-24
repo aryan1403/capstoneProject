@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+          - link "My Bookings" [ref=e21] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e22]
+            - text: My Bookings
+        - generic [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e29]
+          - generic [ref=e34]:
+            - link "V Vinay" [ref=e35] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e36]: V
+              - generic [ref=e37]: Vinay
+            - button "Logout" [ref=e38]:
+              - img [ref=e39]
+    - main [ref=e42]:
+      - generic [ref=e44]:
+        - img [ref=e46]
+        - heading "Booking Confirmed!" [level=1] [ref=e49]
+        - paragraph [ref=e50]: Your payment was successful and your professional has been notified.
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - img [ref=e53]
+            - text: "Booking ID:"
+            - generic [ref=e56]: "#7"
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - text: "Status:"
+            - generic [ref=e60]: Confirmed
+        - generic [ref=e61]:
+          - link "View Booking History" [ref=e62] [cursor=pointer]:
+            - /url: /history
+            - button "View Booking History" [ref=e63]
+          - link "Return to Home" [ref=e64] [cursor=pointer]:
+            - /url: /
+            - button "Return to Home" [ref=e65]:
+              - text: Return to Home
+              - img [ref=e66]
+    - contentinfo [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - link "QuickHelp" [ref=e72] [cursor=pointer]:
+              - /url: /
+              - img [ref=e73]
+              - generic [ref=e75]: QuickHelp
+            - paragraph [ref=e76]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e77]:
+              - link [ref=e78] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e79]
+              - link [ref=e81] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e82]
+              - link [ref=e84] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e85]
+          - generic [ref=e88]:
+            - heading "Services" [level=4] [ref=e89]
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Electricians" [ref=e92] [cursor=pointer]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e93]:
+                - link "Plumbers" [ref=e94] [cursor=pointer]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e95]:
+                - link "Carpenters" [ref=e96] [cursor=pointer]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e97]:
+                - link "Cleaners" [ref=e98] [cursor=pointer]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e99]:
+                - link "Painters" [ref=e100] [cursor=pointer]:
+                  - /url: /search?category=painters
+          - generic [ref=e101]:
+            - heading "Company" [level=4] [ref=e102]
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "About Us" [ref=e105] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e106]:
+                - link "Contact Support" [ref=e107] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e108]:
+                - link "Terms of Service" [ref=e109] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e110]:
+                - link "Privacy Policy" [ref=e111] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e112]:
+            - heading "Contact Info" [level=4] [ref=e113]
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - img [ref=e116]
+                - generic [ref=e119]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e120]:
+                - img [ref=e121]
+                - generic [ref=e123]: +1 (555) 123-4567
+              - listitem [ref=e124]:
+                - img [ref=e125]
+                - generic [ref=e128]: support@quickhelp.com
+        - generic [ref=e129]:
+          - paragraph [ref=e130]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e131]:
+            - generic [ref=e132]: Built with reliability
+            - generic [ref=e133]: •
+            - generic [ref=e134]: Secured Payments
+  - region "Notifications alt+T"
+```
