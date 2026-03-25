@@ -1,0 +1,1357 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+          - link "My Bookings" [ref=e21] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e22]
+            - text: My Bookings
+        - generic [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e29]
+          - generic [ref=e34]:
+            - link "V Vinay" [ref=e35] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e36]: V
+              - generic [ref=e37]: Vinay
+            - button "Logout" [ref=e38]:
+              - img [ref=e39]
+    - main [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "My Bookings" [level=1] [ref=e46]
+          - paragraph [ref=e47]: Track and manage your service requests
+        - generic [ref=e48]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e54]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e55]
+                - paragraph [ref=e56]: Carpenter
+              - generic [ref=e57]:
+                - generic [ref=e58]: Total Paid
+                - text: ₹850
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - img [ref=e61]
+                - text: March 24th, 2026
+              - generic [ref=e63]:
+                - img [ref=e64]
+                - text: CARD
+              - generic [ref=e67]:
+                - generic [ref=e68]: "ID:"
+                - text: "#1"
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e75]
+                - paragraph [ref=e76]: Carpenter
+              - generic [ref=e77]:
+                - generic [ref=e78]: Total Paid
+                - text: ₹850
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - img [ref=e81]
+                - text: March 25th, 2026
+              - generic [ref=e83]:
+                - img [ref=e84]
+                - text: UPI
+              - generic [ref=e87]:
+                - generic [ref=e88]: "ID:"
+                - text: "#2"
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: confirmed
+                - heading "Suresh Verma" [level=3] [ref=e95]
+                - paragraph [ref=e96]: Electrician
+              - generic [ref=e97]:
+                - generic [ref=e98]: Total Paid
+                - text: ₹950
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - img [ref=e101]
+                - text: March 24th, 2026
+              - generic [ref=e103]:
+                - img [ref=e104]
+                - text: UPI
+              - generic [ref=e107]:
+                - generic [ref=e108]: "ID:"
+                - text: "#3"
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - generic [ref=e114]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e115]
+                - paragraph [ref=e116]: Carpenter
+              - generic [ref=e117]:
+                - generic [ref=e118]: Total Paid
+                - text: ₹850
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - img [ref=e121]
+                - text: March 25th, 2026
+              - generic [ref=e123]:
+                - img [ref=e124]
+                - text: UPI
+              - generic [ref=e127]:
+                - generic [ref=e128]: "ID:"
+                - text: "#4"
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - generic [ref=e134]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e135]
+                - paragraph [ref=e136]: Carpenter
+              - generic [ref=e137]:
+                - generic [ref=e138]: Total Paid
+                - text: ₹850
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - img [ref=e141]
+                - text: March 29th, 2026
+              - generic [ref=e143]:
+                - img [ref=e144]
+                - text: UPI
+              - generic [ref=e147]:
+                - generic [ref=e148]: "ID:"
+                - text: "#5"
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - generic [ref=e154]: confirmed
+                - heading "Anil Sharma" [level=3] [ref=e155]
+                - paragraph [ref=e156]: Plumber
+              - generic [ref=e157]:
+                - generic [ref=e158]: Total Paid
+                - text: ₹800
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - img [ref=e161]
+                - text: March 24th, 2026
+              - generic [ref=e163]:
+                - img [ref=e164]
+                - text: UPI
+              - generic [ref=e167]:
+                - generic [ref=e168]: "ID:"
+                - text: "#6"
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: confirmed
+                - heading "Anil Sharma" [level=3] [ref=e175]
+                - paragraph [ref=e176]: Plumber
+              - generic [ref=e177]:
+                - generic [ref=e178]: Total Paid
+                - text: ₹800
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - text: March 26th, 2026
+              - generic [ref=e183]:
+                - img [ref=e184]
+                - text: UPI
+              - generic [ref=e187]:
+                - generic [ref=e188]: "ID:"
+                - text: "#7"
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic [ref=e194]: confirmed
+                - heading "Meena Devi" [level=3] [ref=e195]
+                - paragraph [ref=e196]: Cleaner
+              - generic [ref=e197]:
+                - generic [ref=e198]: Total Paid
+                - text: ₹600
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - img [ref=e201]
+                - text: March 30th, 2026
+              - generic [ref=e203]:
+                - img [ref=e204]
+                - text: UPI
+              - generic [ref=e207]:
+                - generic [ref=e208]: "ID:"
+                - text: "#8"
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - generic [ref=e214]: confirmed
+                - heading "Suresh Verma" [level=3] [ref=e215]
+                - paragraph [ref=e216]: Electrician
+              - generic [ref=e217]:
+                - generic [ref=e218]: Total Paid
+                - text: ₹950
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - img [ref=e221]
+                - text: March 27th, 2026
+              - generic [ref=e223]:
+                - img [ref=e224]
+                - text: UPI
+              - generic [ref=e227]:
+                - generic [ref=e228]: "ID:"
+                - text: "#9"
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - generic [ref=e234]: confirmed
+                - heading "Anil Sharma" [level=3] [ref=e235]
+                - paragraph [ref=e236]: Plumber
+              - generic [ref=e237]:
+                - generic [ref=e238]: Total Paid
+                - text: ₹800
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - img [ref=e241]
+                - text: March 24th, 2026
+              - generic [ref=e243]:
+                - img [ref=e244]
+                - text: UPI
+              - generic [ref=e247]:
+                - generic [ref=e248]: "ID:"
+                - text: "#10"
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - generic [ref=e254]: confirmed
+                - heading "Suresh Verma" [level=3] [ref=e255]
+                - paragraph [ref=e256]: Electrician
+              - generic [ref=e257]:
+                - generic [ref=e258]: Total Paid
+                - text: ₹950
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - img [ref=e261]
+                - text: March 25th, 2026
+              - generic [ref=e263]:
+                - img [ref=e264]
+                - text: CARD
+              - generic [ref=e267]:
+                - generic [ref=e268]: "ID:"
+                - text: "#11"
+          - generic [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - generic [ref=e274]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e275]
+                - paragraph [ref=e276]: Carpenter
+              - generic [ref=e277]:
+                - generic [ref=e278]: Total Paid
+                - text: ₹850
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - img [ref=e281]
+                - text: March 26th, 2026
+              - generic [ref=e283]:
+                - img [ref=e284]
+                - text: CARD
+              - generic [ref=e287]:
+                - generic [ref=e288]: "ID:"
+                - text: "#12"
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e294]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e295]
+                - paragraph [ref=e296]: Carpenter
+              - generic [ref=e297]:
+                - generic [ref=e298]: Total Paid
+                - text: ₹850
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - img [ref=e301]
+                - text: March 26th, 2026
+              - generic [ref=e303]:
+                - img [ref=e304]
+                - text: CARD
+              - generic [ref=e307]:
+                - generic [ref=e308]: "ID:"
+                - text: "#13"
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - generic [ref=e314]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e315]
+                - paragraph [ref=e316]: Carpenter
+              - generic [ref=e317]:
+                - generic [ref=e318]: Total Paid
+                - text: ₹850
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - img [ref=e321]
+                - text: March 26th, 2026
+              - generic [ref=e323]:
+                - img [ref=e324]
+                - text: CARD
+              - generic [ref=e327]:
+                - generic [ref=e328]: "ID:"
+                - text: "#14"
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - generic [ref=e334]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e335]
+                - paragraph [ref=e336]: Carpenter
+              - generic [ref=e337]:
+                - generic [ref=e338]: Total Paid
+                - text: ₹850
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - img [ref=e341]
+                - text: March 26th, 2026
+              - generic [ref=e343]:
+                - img [ref=e344]
+                - text: CARD
+              - generic [ref=e347]:
+                - generic [ref=e348]: "ID:"
+                - text: "#15"
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e355]
+                - paragraph [ref=e356]: Carpenter
+              - generic [ref=e357]:
+                - generic [ref=e358]: Total Paid
+                - text: ₹850
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - img [ref=e361]
+                - text: March 26th, 2026
+              - generic [ref=e363]:
+                - img [ref=e364]
+                - text: CARD
+              - generic [ref=e367]:
+                - generic [ref=e368]: "ID:"
+                - text: "#16"
+          - generic [ref=e371]:
+            - generic [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e375]
+                - paragraph [ref=e376]: Carpenter
+              - generic [ref=e377]:
+                - generic [ref=e378]: Total Paid
+                - text: ₹850
+            - generic [ref=e379]:
+              - generic [ref=e380]:
+                - img [ref=e381]
+                - text: March 26th, 2026
+              - generic [ref=e383]:
+                - img [ref=e384]
+                - text: CARD
+              - generic [ref=e387]:
+                - generic [ref=e388]: "ID:"
+                - text: "#17"
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e393]:
+                - generic [ref=e394]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e395]
+                - paragraph [ref=e396]: Carpenter
+              - generic [ref=e397]:
+                - generic [ref=e398]: Total Paid
+                - text: ₹850
+            - generic [ref=e399]:
+              - generic [ref=e400]:
+                - img [ref=e401]
+                - text: March 26th, 2026
+              - generic [ref=e403]:
+                - img [ref=e404]
+                - text: CARD
+              - generic [ref=e407]:
+                - generic [ref=e408]: "ID:"
+                - text: "#18"
+          - generic [ref=e411]:
+            - generic [ref=e412]:
+              - generic [ref=e413]:
+                - generic [ref=e414]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e415]
+                - paragraph [ref=e416]: Carpenter
+              - generic [ref=e417]:
+                - generic [ref=e418]: Total Paid
+                - text: ₹850
+            - generic [ref=e419]:
+              - generic [ref=e420]:
+                - img [ref=e421]
+                - text: March 26th, 2026
+              - generic [ref=e423]:
+                - img [ref=e424]
+                - text: CARD
+              - generic [ref=e427]:
+                - generic [ref=e428]: "ID:"
+                - text: "#19"
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - generic [ref=e433]:
+                - generic [ref=e434]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e435]
+                - paragraph [ref=e436]: Carpenter
+              - generic [ref=e437]:
+                - generic [ref=e438]: Total Paid
+                - text: ₹850
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - img [ref=e441]
+                - text: March 26th, 2026
+              - generic [ref=e443]:
+                - img [ref=e444]
+                - text: CARD
+              - generic [ref=e447]:
+                - generic [ref=e448]: "ID:"
+                - text: "#20"
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - generic [ref=e453]:
+                - generic [ref=e454]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e455]
+                - paragraph [ref=e456]: Carpenter
+              - generic [ref=e457]:
+                - generic [ref=e458]: Total Paid
+                - text: ₹850
+            - generic [ref=e459]:
+              - generic [ref=e460]:
+                - img [ref=e461]
+                - text: March 26th, 2026
+              - generic [ref=e463]:
+                - img [ref=e464]
+                - text: CARD
+              - generic [ref=e467]:
+                - generic [ref=e468]: "ID:"
+                - text: "#21"
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - generic [ref=e473]:
+                - generic [ref=e474]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e475]
+                - paragraph [ref=e476]: Carpenter
+              - generic [ref=e477]:
+                - generic [ref=e478]: Total Paid
+                - text: ₹850
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - img [ref=e481]
+                - text: March 26th, 2026
+              - generic [ref=e483]:
+                - img [ref=e484]
+                - text: CARD
+              - generic [ref=e487]:
+                - generic [ref=e488]: "ID:"
+                - text: "#22"
+          - generic [ref=e491]:
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - generic [ref=e494]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e495]
+                - paragraph [ref=e496]: Carpenter
+              - generic [ref=e497]:
+                - generic [ref=e498]: Total Paid
+                - text: ₹850
+            - generic [ref=e499]:
+              - generic [ref=e500]:
+                - img [ref=e501]
+                - text: March 26th, 2026
+              - generic [ref=e503]:
+                - img [ref=e504]
+                - text: CARD
+              - generic [ref=e507]:
+                - generic [ref=e508]: "ID:"
+                - text: "#23"
+          - generic [ref=e511]:
+            - generic [ref=e512]:
+              - generic [ref=e513]:
+                - generic [ref=e514]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e515]
+                - paragraph [ref=e516]: Carpenter
+              - generic [ref=e517]:
+                - generic [ref=e518]: Total Paid
+                - text: ₹850
+            - generic [ref=e519]:
+              - generic [ref=e520]:
+                - img [ref=e521]
+                - text: March 26th, 2026
+              - generic [ref=e523]:
+                - img [ref=e524]
+                - text: CARD
+              - generic [ref=e527]:
+                - generic [ref=e528]: "ID:"
+                - text: "#24"
+          - generic [ref=e531]:
+            - generic [ref=e532]:
+              - generic [ref=e533]:
+                - generic [ref=e534]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e535]
+                - paragraph [ref=e536]: Carpenter
+              - generic [ref=e537]:
+                - generic [ref=e538]: Total Paid
+                - text: ₹850
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - img [ref=e541]
+                - text: March 26th, 2026
+              - generic [ref=e543]:
+                - img [ref=e544]
+                - text: CARD
+              - generic [ref=e547]:
+                - generic [ref=e548]: "ID:"
+                - text: "#25"
+          - generic [ref=e551]:
+            - generic [ref=e552]:
+              - generic [ref=e553]:
+                - generic [ref=e554]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e555]
+                - paragraph [ref=e556]: Carpenter
+              - generic [ref=e557]:
+                - generic [ref=e558]: Total Paid
+                - text: ₹850
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - img [ref=e561]
+                - text: March 26th, 2026
+              - generic [ref=e563]:
+                - img [ref=e564]
+                - text: CARD
+              - generic [ref=e567]:
+                - generic [ref=e568]: "ID:"
+                - text: "#26"
+          - generic [ref=e571]:
+            - generic [ref=e572]:
+              - generic [ref=e573]:
+                - generic [ref=e574]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e575]
+                - paragraph [ref=e576]: Carpenter
+              - generic [ref=e577]:
+                - generic [ref=e578]: Total Paid
+                - text: ₹850
+            - generic [ref=e579]:
+              - generic [ref=e580]:
+                - img [ref=e581]
+                - text: March 26th, 2026
+              - generic [ref=e583]:
+                - img [ref=e584]
+                - text: CARD
+              - generic [ref=e587]:
+                - generic [ref=e588]: "ID:"
+                - text: "#27"
+          - generic [ref=e591]:
+            - generic [ref=e592]:
+              - generic [ref=e593]:
+                - generic [ref=e594]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e595]
+                - paragraph [ref=e596]: Carpenter
+              - generic [ref=e597]:
+                - generic [ref=e598]: Total Paid
+                - text: ₹850
+            - generic [ref=e599]:
+              - generic [ref=e600]:
+                - img [ref=e601]
+                - text: March 26th, 2026
+              - generic [ref=e603]:
+                - img [ref=e604]
+                - text: CARD
+              - generic [ref=e607]:
+                - generic [ref=e608]: "ID:"
+                - text: "#28"
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - generic [ref=e613]:
+                - generic [ref=e614]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e615]
+                - paragraph [ref=e616]: Carpenter
+              - generic [ref=e617]:
+                - generic [ref=e618]: Total Paid
+                - text: ₹850
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - img [ref=e621]
+                - text: March 26th, 2026
+              - generic [ref=e623]:
+                - img [ref=e624]
+                - text: CARD
+              - generic [ref=e627]:
+                - generic [ref=e628]: "ID:"
+                - text: "#29"
+          - generic [ref=e631]:
+            - generic [ref=e632]:
+              - generic [ref=e633]:
+                - generic [ref=e634]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e635]
+                - paragraph [ref=e636]: Carpenter
+              - generic [ref=e637]:
+                - generic [ref=e638]: Total Paid
+                - text: ₹850
+            - generic [ref=e639]:
+              - generic [ref=e640]:
+                - img [ref=e641]
+                - text: March 26th, 2026
+              - generic [ref=e643]:
+                - img [ref=e644]
+                - text: CARD
+              - generic [ref=e647]:
+                - generic [ref=e648]: "ID:"
+                - text: "#30"
+          - generic [ref=e651]:
+            - generic [ref=e652]:
+              - generic [ref=e653]:
+                - generic [ref=e654]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e655]
+                - paragraph [ref=e656]: Carpenter
+              - generic [ref=e657]:
+                - generic [ref=e658]: Total Paid
+                - text: ₹850
+            - generic [ref=e659]:
+              - generic [ref=e660]:
+                - img [ref=e661]
+                - text: March 26th, 2026
+              - generic [ref=e663]:
+                - img [ref=e664]
+                - text: CARD
+              - generic [ref=e667]:
+                - generic [ref=e668]: "ID:"
+                - text: "#31"
+          - generic [ref=e671]:
+            - generic [ref=e672]:
+              - generic [ref=e673]:
+                - generic [ref=e674]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e675]
+                - paragraph [ref=e676]: Carpenter
+              - generic [ref=e677]:
+                - generic [ref=e678]: Total Paid
+                - text: ₹850
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - img [ref=e681]
+                - text: March 26th, 2026
+              - generic [ref=e683]:
+                - img [ref=e684]
+                - text: CARD
+              - generic [ref=e687]:
+                - generic [ref=e688]: "ID:"
+                - text: "#32"
+          - generic [ref=e691]:
+            - generic [ref=e692]:
+              - generic [ref=e693]:
+                - generic [ref=e694]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e695]
+                - paragraph [ref=e696]: Carpenter
+              - generic [ref=e697]:
+                - generic [ref=e698]: Total Paid
+                - text: ₹850
+            - generic [ref=e699]:
+              - generic [ref=e700]:
+                - img [ref=e701]
+                - text: March 25th, 2026
+              - generic [ref=e703]:
+                - img [ref=e704]
+                - text: CASH
+              - generic [ref=e707]:
+                - generic [ref=e708]: "ID:"
+                - text: "#33"
+          - generic [ref=e711]:
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - generic [ref=e714]: confirmed
+                - heading "Suresh Verma" [level=3] [ref=e715]
+                - paragraph [ref=e716]: Electrician
+              - generic [ref=e717]:
+                - generic [ref=e718]: Total Paid
+                - text: ₹950
+            - generic [ref=e719]:
+              - generic [ref=e720]:
+                - img [ref=e721]
+                - text: March 25th, 2026
+              - generic [ref=e723]:
+                - img [ref=e724]
+                - text: CASH
+              - generic [ref=e727]:
+                - generic [ref=e728]: "ID:"
+                - text: "#34"
+          - generic [ref=e731]:
+            - generic [ref=e732]:
+              - generic [ref=e733]:
+                - generic [ref=e734]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e735]
+                - paragraph [ref=e736]: Carpenter
+              - generic [ref=e737]:
+                - generic [ref=e738]: Total Paid
+                - text: ₹850
+            - generic [ref=e739]:
+              - generic [ref=e740]:
+                - img [ref=e741]
+                - text: March 25th, 2026
+              - generic [ref=e743]:
+                - img [ref=e744]
+                - text: CASH
+              - generic [ref=e747]:
+                - generic [ref=e748]: "ID:"
+                - text: "#35"
+          - generic [ref=e751]:
+            - generic [ref=e752]:
+              - generic [ref=e753]:
+                - generic [ref=e754]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e755]
+                - paragraph [ref=e756]: Carpenter
+              - generic [ref=e757]:
+                - generic [ref=e758]: Total Paid
+                - text: ₹850
+            - generic [ref=e759]:
+              - generic [ref=e760]:
+                - img [ref=e761]
+                - text: March 26th, 2026
+              - generic [ref=e763]:
+                - img [ref=e764]
+                - text: CARD
+              - generic [ref=e767]:
+                - generic [ref=e768]: "ID:"
+                - text: "#36"
+          - generic [ref=e771]:
+            - generic [ref=e772]:
+              - generic [ref=e773]:
+                - generic [ref=e774]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e775]
+                - paragraph [ref=e776]: Carpenter
+              - generic [ref=e777]:
+                - generic [ref=e778]: Total Paid
+                - text: ₹850
+            - generic [ref=e779]:
+              - generic [ref=e780]:
+                - img [ref=e781]
+                - text: March 26th, 2026
+              - generic [ref=e783]:
+                - img [ref=e784]
+                - text: CARD
+              - generic [ref=e787]:
+                - generic [ref=e788]: "ID:"
+                - text: "#37"
+          - generic [ref=e791]:
+            - generic [ref=e792]:
+              - generic [ref=e793]:
+                - generic [ref=e794]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e795]
+                - paragraph [ref=e796]: Carpenter
+              - generic [ref=e797]:
+                - generic [ref=e798]: Total Paid
+                - text: ₹850
+            - generic [ref=e799]:
+              - generic [ref=e800]:
+                - img [ref=e801]
+                - text: March 26th, 2026
+              - generic [ref=e803]:
+                - img [ref=e804]
+                - text: CARD
+              - generic [ref=e807]:
+                - generic [ref=e808]: "ID:"
+                - text: "#38"
+          - generic [ref=e811]:
+            - generic [ref=e812]:
+              - generic [ref=e813]:
+                - generic [ref=e814]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e815]
+                - paragraph [ref=e816]: Carpenter
+              - generic [ref=e817]:
+                - generic [ref=e818]: Total Paid
+                - text: ₹850
+            - generic [ref=e819]:
+              - generic [ref=e820]:
+                - img [ref=e821]
+                - text: March 26th, 2026
+              - generic [ref=e823]:
+                - img [ref=e824]
+                - text: CARD
+              - generic [ref=e827]:
+                - generic [ref=e828]: "ID:"
+                - text: "#39"
+          - generic [ref=e831]:
+            - generic [ref=e832]:
+              - generic [ref=e833]:
+                - generic [ref=e834]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e835]
+                - paragraph [ref=e836]: Carpenter
+              - generic [ref=e837]:
+                - generic [ref=e838]: Total Paid
+                - text: ₹850
+            - generic [ref=e839]:
+              - generic [ref=e840]:
+                - img [ref=e841]
+                - text: March 26th, 2026
+              - generic [ref=e843]:
+                - img [ref=e844]
+                - text: CARD
+              - generic [ref=e847]:
+                - generic [ref=e848]: "ID:"
+                - text: "#40"
+          - generic [ref=e851]:
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - generic [ref=e854]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e855]
+                - paragraph [ref=e856]: Carpenter
+              - generic [ref=e857]:
+                - generic [ref=e858]: Total Paid
+                - text: ₹850
+            - generic [ref=e859]:
+              - generic [ref=e860]:
+                - img [ref=e861]
+                - text: March 26th, 2026
+              - generic [ref=e863]:
+                - img [ref=e864]
+                - text: UPI
+              - generic [ref=e867]:
+                - generic [ref=e868]: "ID:"
+                - text: "#41"
+          - generic [ref=e871]:
+            - generic [ref=e872]:
+              - generic [ref=e873]:
+                - generic [ref=e874]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e875]
+                - paragraph [ref=e876]: Carpenter
+              - generic [ref=e877]:
+                - generic [ref=e878]: Total Paid
+                - text: ₹850
+            - generic [ref=e879]:
+              - generic [ref=e880]:
+                - img [ref=e881]
+                - text: March 26th, 2026
+              - generic [ref=e883]:
+                - img [ref=e884]
+                - text: CARD
+              - generic [ref=e887]:
+                - generic [ref=e888]: "ID:"
+                - text: "#42"
+          - generic [ref=e891]:
+            - generic [ref=e892]:
+              - generic [ref=e893]:
+                - generic [ref=e894]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e895]
+                - paragraph [ref=e896]: Carpenter
+              - generic [ref=e897]:
+                - generic [ref=e898]: Total Paid
+                - text: ₹850
+            - generic [ref=e899]:
+              - generic [ref=e900]:
+                - img [ref=e901]
+                - text: March 26th, 2026
+              - generic [ref=e903]:
+                - img [ref=e904]
+                - text: CARD
+              - generic [ref=e907]:
+                - generic [ref=e908]: "ID:"
+                - text: "#43"
+          - generic [ref=e911]:
+            - generic [ref=e912]:
+              - generic [ref=e913]:
+                - generic [ref=e914]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e915]
+                - paragraph [ref=e916]: Carpenter
+              - generic [ref=e917]:
+                - generic [ref=e918]: Total Paid
+                - text: ₹850
+            - generic [ref=e919]:
+              - generic [ref=e920]:
+                - img [ref=e921]
+                - text: March 26th, 2026
+              - generic [ref=e923]:
+                - img [ref=e924]
+                - text: CARD
+              - generic [ref=e927]:
+                - generic [ref=e928]: "ID:"
+                - text: "#44"
+          - generic [ref=e931]:
+            - generic [ref=e932]:
+              - generic [ref=e933]:
+                - generic [ref=e934]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e935]
+                - paragraph [ref=e936]: Carpenter
+              - generic [ref=e937]:
+                - generic [ref=e938]: Total Paid
+                - text: ₹850
+            - generic [ref=e939]:
+              - generic [ref=e940]:
+                - img [ref=e941]
+                - text: March 26th, 2026
+              - generic [ref=e943]:
+                - img [ref=e944]
+                - text: CARD
+              - generic [ref=e947]:
+                - generic [ref=e948]: "ID:"
+                - text: "#45"
+          - generic [ref=e951]:
+            - generic [ref=e952]:
+              - generic [ref=e953]:
+                - generic [ref=e954]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e955]
+                - paragraph [ref=e956]: Carpenter
+              - generic [ref=e957]:
+                - generic [ref=e958]: Total Paid
+                - text: ₹850
+            - generic [ref=e959]:
+              - generic [ref=e960]:
+                - img [ref=e961]
+                - text: March 26th, 2026
+              - generic [ref=e963]:
+                - img [ref=e964]
+                - text: CARD
+              - generic [ref=e967]:
+                - generic [ref=e968]: "ID:"
+                - text: "#46"
+          - generic [ref=e971]:
+            - generic [ref=e972]:
+              - generic [ref=e973]:
+                - generic [ref=e974]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e975]
+                - paragraph [ref=e976]: Carpenter
+              - generic [ref=e977]:
+                - generic [ref=e978]: Total Paid
+                - text: ₹850
+            - generic [ref=e979]:
+              - generic [ref=e980]:
+                - img [ref=e981]
+                - text: March 26th, 2026
+              - generic [ref=e983]:
+                - img [ref=e984]
+                - text: CARD
+              - generic [ref=e987]:
+                - generic [ref=e988]: "ID:"
+                - text: "#47"
+          - generic [ref=e991]:
+            - generic [ref=e992]:
+              - generic [ref=e993]:
+                - generic [ref=e994]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e995]
+                - paragraph [ref=e996]: Carpenter
+              - generic [ref=e997]:
+                - generic [ref=e998]: Total Paid
+                - text: ₹850
+            - generic [ref=e999]:
+              - generic [ref=e1000]:
+                - img [ref=e1001]
+                - text: March 26th, 2026
+              - generic [ref=e1003]:
+                - img [ref=e1004]
+                - text: UPI
+              - generic [ref=e1007]:
+                - generic [ref=e1008]: "ID:"
+                - text: "#48"
+          - generic [ref=e1011]:
+            - generic [ref=e1012]:
+              - generic [ref=e1013]:
+                - generic [ref=e1014]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1015]
+                - paragraph [ref=e1016]: Carpenter
+              - generic [ref=e1017]:
+                - generic [ref=e1018]: Total Paid
+                - text: ₹850
+            - generic [ref=e1019]:
+              - generic [ref=e1020]:
+                - img [ref=e1021]
+                - text: March 26th, 2026
+              - generic [ref=e1023]:
+                - img [ref=e1024]
+                - text: CASH
+              - generic [ref=e1027]:
+                - generic [ref=e1028]: "ID:"
+                - text: "#49"
+          - generic [ref=e1031]:
+            - generic [ref=e1032]:
+              - generic [ref=e1033]:
+                - generic [ref=e1034]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1035]
+                - paragraph [ref=e1036]: Carpenter
+              - generic [ref=e1037]:
+                - generic [ref=e1038]: Total Paid
+                - text: ₹850
+            - generic [ref=e1039]:
+              - generic [ref=e1040]:
+                - img [ref=e1041]
+                - text: March 26th, 2026
+              - generic [ref=e1043]:
+                - img [ref=e1044]
+                - text: CARD
+              - generic [ref=e1047]:
+                - generic [ref=e1048]: "ID:"
+                - text: "#50"
+          - generic [ref=e1051]:
+            - generic [ref=e1052]:
+              - generic [ref=e1053]:
+                - generic [ref=e1054]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1055]
+                - paragraph [ref=e1056]: Carpenter
+              - generic [ref=e1057]:
+                - generic [ref=e1058]: Total Paid
+                - text: ₹850
+            - generic [ref=e1059]:
+              - generic [ref=e1060]:
+                - img [ref=e1061]
+                - text: March 26th, 2026
+              - generic [ref=e1063]:
+                - img [ref=e1064]
+                - text: CARD
+              - generic [ref=e1067]:
+                - generic [ref=e1068]: "ID:"
+                - text: "#51"
+          - generic [ref=e1071]:
+            - generic [ref=e1072]:
+              - generic [ref=e1073]:
+                - generic [ref=e1074]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1075]
+                - paragraph [ref=e1076]: Carpenter
+              - generic [ref=e1077]:
+                - generic [ref=e1078]: Total Paid
+                - text: ₹850
+            - generic [ref=e1079]:
+              - generic [ref=e1080]:
+                - img [ref=e1081]
+                - text: March 26th, 2026
+              - generic [ref=e1083]:
+                - img [ref=e1084]
+                - text: CARD
+              - generic [ref=e1087]:
+                - generic [ref=e1088]: "ID:"
+                - text: "#52"
+          - generic [ref=e1091]:
+            - generic [ref=e1092]:
+              - generic [ref=e1093]:
+                - generic [ref=e1094]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1095]
+                - paragraph [ref=e1096]: Carpenter
+              - generic [ref=e1097]:
+                - generic [ref=e1098]: Total Paid
+                - text: ₹850
+            - generic [ref=e1099]:
+              - generic [ref=e1100]:
+                - img [ref=e1101]
+                - text: March 26th, 2026
+              - generic [ref=e1103]:
+                - img [ref=e1104]
+                - text: CARD
+              - generic [ref=e1107]:
+                - generic [ref=e1108]: "ID:"
+                - text: "#53"
+          - generic [ref=e1111]:
+            - generic [ref=e1112]:
+              - generic [ref=e1113]:
+                - generic [ref=e1114]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1115]
+                - paragraph [ref=e1116]: Carpenter
+              - generic [ref=e1117]:
+                - generic [ref=e1118]: Total Paid
+                - text: ₹850
+            - generic [ref=e1119]:
+              - generic [ref=e1120]:
+                - img [ref=e1121]
+                - text: March 26th, 2026
+              - generic [ref=e1123]:
+                - img [ref=e1124]
+                - text: UPI
+              - generic [ref=e1127]:
+                - generic [ref=e1128]: "ID:"
+                - text: "#54"
+          - generic [ref=e1131]:
+            - generic [ref=e1132]:
+              - generic [ref=e1133]:
+                - generic [ref=e1134]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1135]
+                - paragraph [ref=e1136]: Carpenter
+              - generic [ref=e1137]:
+                - generic [ref=e1138]: Total Paid
+                - text: ₹850
+            - generic [ref=e1139]:
+              - generic [ref=e1140]:
+                - img [ref=e1141]
+                - text: March 26th, 2026
+              - generic [ref=e1143]:
+                - img [ref=e1144]
+                - text: CASH
+              - generic [ref=e1147]:
+                - generic [ref=e1148]: "ID:"
+                - text: "#55"
+          - generic [ref=e1151]:
+            - generic [ref=e1152]:
+              - generic [ref=e1153]:
+                - generic [ref=e1154]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1155]
+                - paragraph [ref=e1156]: Carpenter
+              - generic [ref=e1157]:
+                - generic [ref=e1158]: Total Paid
+                - text: ₹850
+            - generic [ref=e1159]:
+              - generic [ref=e1160]:
+                - img [ref=e1161]
+                - text: March 26th, 2026
+              - generic [ref=e1163]:
+                - img [ref=e1164]
+                - text: CARD
+              - generic [ref=e1167]:
+                - generic [ref=e1168]: "ID:"
+                - text: "#56"
+          - generic [ref=e1171]:
+            - generic [ref=e1172]:
+              - generic [ref=e1173]:
+                - generic [ref=e1174]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1175]
+                - paragraph [ref=e1176]: Carpenter
+              - generic [ref=e1177]:
+                - generic [ref=e1178]: Total Paid
+                - text: ₹850
+            - generic [ref=e1179]:
+              - generic [ref=e1180]:
+                - img [ref=e1181]
+                - text: March 26th, 2026
+              - generic [ref=e1183]:
+                - img [ref=e1184]
+                - text: CARD
+              - generic [ref=e1187]:
+                - generic [ref=e1188]: "ID:"
+                - text: "#57"
+          - generic [ref=e1191]:
+            - generic [ref=e1192]:
+              - generic [ref=e1193]:
+                - generic [ref=e1194]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1195]
+                - paragraph [ref=e1196]: Carpenter
+              - generic [ref=e1197]:
+                - generic [ref=e1198]: Total Paid
+                - text: ₹850
+            - generic [ref=e1199]:
+              - generic [ref=e1200]:
+                - img [ref=e1201]
+                - text: March 26th, 2026
+              - generic [ref=e1203]:
+                - img [ref=e1204]
+                - text: CARD
+              - generic [ref=e1207]:
+                - generic [ref=e1208]: "ID:"
+                - text: "#58"
+          - generic [ref=e1211]:
+            - generic [ref=e1212]:
+              - generic [ref=e1213]:
+                - generic [ref=e1214]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1215]
+                - paragraph [ref=e1216]: Carpenter
+              - generic [ref=e1217]:
+                - generic [ref=e1218]: Total Paid
+                - text: ₹850
+            - generic [ref=e1219]:
+              - generic [ref=e1220]:
+                - img [ref=e1221]
+                - text: March 26th, 2026
+              - generic [ref=e1223]:
+                - img [ref=e1224]
+                - text: CARD
+              - generic [ref=e1227]:
+                - generic [ref=e1228]: "ID:"
+                - text: "#59"
+          - generic [ref=e1231]:
+            - generic [ref=e1232]:
+              - generic [ref=e1233]:
+                - generic [ref=e1234]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1235]
+                - paragraph [ref=e1236]: Carpenter
+              - generic [ref=e1237]:
+                - generic [ref=e1238]: Total Paid
+                - text: ₹850
+            - generic [ref=e1239]:
+              - generic [ref=e1240]:
+                - img [ref=e1241]
+                - text: March 26th, 2026
+              - generic [ref=e1243]:
+                - img [ref=e1244]
+                - text: CARD
+              - generic [ref=e1247]:
+                - generic [ref=e1248]: "ID:"
+                - text: "#60"
+          - generic [ref=e1251]:
+            - generic [ref=e1252]:
+              - generic [ref=e1253]:
+                - generic [ref=e1254]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1255]
+                - paragraph [ref=e1256]: Carpenter
+              - generic [ref=e1257]:
+                - generic [ref=e1258]: Total Paid
+                - text: ₹850
+            - generic [ref=e1259]:
+              - generic [ref=e1260]:
+                - img [ref=e1261]
+                - text: March 26th, 2026
+              - generic [ref=e1263]:
+                - img [ref=e1264]
+                - text: CARD
+              - generic [ref=e1267]:
+                - generic [ref=e1268]: "ID:"
+                - text: "#61"
+          - generic [ref=e1271]:
+            - generic [ref=e1272]:
+              - generic [ref=e1273]:
+                - generic [ref=e1274]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1275]
+                - paragraph [ref=e1276]: Carpenter
+              - generic [ref=e1277]:
+                - generic [ref=e1278]: Total Paid
+                - text: ₹850
+            - generic [ref=e1279]:
+              - generic [ref=e1280]:
+                - img [ref=e1281]
+                - text: March 26th, 2026
+              - generic [ref=e1283]:
+                - img [ref=e1284]
+                - text: UPI
+              - generic [ref=e1287]:
+                - generic [ref=e1288]: "ID:"
+                - text: "#62"
+          - generic [ref=e1291]:
+            - generic [ref=e1292]:
+              - generic [ref=e1293]:
+                - generic [ref=e1294]: confirmed
+                - heading "Rajan Kumar" [level=3] [ref=e1295]
+                - paragraph [ref=e1296]: Carpenter
+              - generic [ref=e1297]:
+                - generic [ref=e1298]: Total Paid
+                - text: ₹850
+            - generic [ref=e1299]:
+              - generic [ref=e1300]:
+                - img [ref=e1301]
+                - text: March 26th, 2026
+              - generic [ref=e1303]:
+                - img [ref=e1304]
+                - text: CASH
+              - generic [ref=e1307]:
+                - generic [ref=e1308]: "ID:"
+                - text: "#63"
+          - generic [ref=e1311]:
+            - generic [ref=e1312]:
+              - generic [ref=e1313]:
+                - generic [ref=e1314]: confirmed
+                - heading "Suresh Verma" [level=3] [ref=e1315]
+                - paragraph [ref=e1316]: Electrician
+              - generic [ref=e1317]:
+                - generic [ref=e1318]: Total Paid
+                - text: ₹950
+            - generic [ref=e1319]:
+              - generic [ref=e1320]:
+                - img [ref=e1321]
+                - text: March 25th, 2026
+              - generic [ref=e1323]:
+                - img [ref=e1324]
+                - text: CASH
+              - generic [ref=e1327]:
+                - generic [ref=e1328]: "ID:"
+                - text: "#64"
+          - generic [ref=e1331]:
+            - generic [ref=e1332]:
+              - generic [ref=e1333]:
+                - generic [ref=e1334]: confirmed
+                - heading "Suresh Verma" [level=3] [ref=e1335]
+                - paragraph [ref=e1336]: Electrician
+              - generic [ref=e1337]:
+                - generic [ref=e1338]: Total Paid
+                - text: ₹950
+            - generic [ref=e1339]:
+              - generic [ref=e1340]:
+                - img [ref=e1341]
+                - text: March 25th, 2026
+              - generic [ref=e1343]:
+                - img [ref=e1344]
+                - text: CASH
+              - generic [ref=e1347]:
+                - generic [ref=e1348]: "ID:"
+                - text: "#65"
+    - contentinfo [ref=e1349]:
+      - generic [ref=e1350]:
+        - generic [ref=e1351]:
+          - generic [ref=e1352]:
+            - link "QuickHelp" [ref=e1353] [cursor=pointer]:
+              - /url: /
+              - img [ref=e1354]
+              - generic [ref=e1356]: QuickHelp
+            - paragraph [ref=e1357]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e1358]:
+              - link [ref=e1359] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e1360]
+              - link [ref=e1362] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e1363]
+              - link [ref=e1365] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e1366]
+          - generic [ref=e1369]:
+            - heading "Services" [level=4] [ref=e1370]
+            - list [ref=e1371]:
+              - listitem [ref=e1372]:
+                - link "Electricians" [ref=e1373] [cursor=pointer]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e1374]:
+                - link "Plumbers" [ref=e1375] [cursor=pointer]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e1376]:
+                - link "Carpenters" [ref=e1377] [cursor=pointer]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e1378]:
+                - link "Cleaners" [ref=e1379] [cursor=pointer]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e1380]:
+                - link "Painters" [ref=e1381] [cursor=pointer]:
+                  - /url: /search?category=painters
+          - generic [ref=e1382]:
+            - heading "Company" [level=4] [ref=e1383]
+            - list [ref=e1384]:
+              - listitem [ref=e1385]:
+                - link "About Us" [ref=e1386] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e1387]:
+                - link "Contact Support" [ref=e1388] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e1389]:
+                - link "Terms of Service" [ref=e1390] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e1391]:
+                - link "Privacy Policy" [ref=e1392] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e1393]:
+            - heading "Contact Info" [level=4] [ref=e1394]
+            - list [ref=e1395]:
+              - listitem [ref=e1396]:
+                - img [ref=e1397]
+                - generic [ref=e1400]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e1401]:
+                - img [ref=e1402]
+                - generic [ref=e1404]: +1 (555) 123-4567
+              - listitem [ref=e1405]:
+                - img [ref=e1406]
+                - generic [ref=e1409]: support@quickhelp.com
+        - generic [ref=e1410]:
+          - paragraph [ref=e1411]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e1412]:
+            - generic [ref=e1413]: Built with reliability
+            - generic [ref=e1414]: •
+            - generic [ref=e1415]: Secured Payments
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e1416]:
+        - img [ref=e1418]
+        - generic [ref=e1421]: Suresh Verma added to booking!
+      - listitem [ref=e1422]:
+        - img [ref=e1424]
+        - generic [ref=e1427]: Welcome back!
+```

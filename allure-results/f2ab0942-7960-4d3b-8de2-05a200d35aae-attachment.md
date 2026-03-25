@@ -1,0 +1,166 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+          - link "My Bookings" [ref=e21] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e22]
+            - text: My Bookings
+        - generic [ref=e26]:
+          - link "1" [ref=e27] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e29]
+            - generic [ref=e33]: "1"
+          - generic [ref=e35]:
+            - link "V Vinay" [ref=e36] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e37]: V
+              - generic [ref=e38]: Vinay
+            - button "Logout" [ref=e39]:
+              - img [ref=e40]
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - heading "Secure Checkout" [level=1] [ref=e47]
+          - paragraph [ref=e48]: Choose your preferred payment method
+        - generic [ref=e49]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - button "Credit/Debit Card" [ref=e53]:
+                - img [ref=e54]
+                - text: Credit/Debit Card
+              - button "UPI Apps" [ref=e56]:
+                - img [ref=e57]
+                - text: UPI Apps
+              - button "Cash on Delivery" [ref=e59]:
+                - img [ref=e60]
+                - text: Cash on Delivery
+            - generic [ref=e64]:
+              - heading "Pay after work is done" [level=3] [ref=e65]
+              - paragraph [ref=e66]: You've selected Cash on Delivery. Please keep exact change ready for the professional after they complete the service.
+              - generic [ref=e68]:
+                - generic [ref=e69]: "Amount to keep ready:"
+                - generic [ref=e70]: ₹893
+          - generic [ref=e72]:
+            - heading "Order Summary" [level=3] [ref=e73]
+            - generic [ref=e74]:
+              - img "Rajan Kumar" [ref=e75]
+              - generic [ref=e76]:
+                - paragraph [ref=e77]: Rajan Kumar
+                - paragraph [ref=e78]: Carpenter
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]: Date
+                - generic [ref=e82]: 26 Mar 2026
+              - generic [ref=e83]:
+                - generic [ref=e84]: Daily Wage
+                - generic [ref=e85]: ₹850
+              - generic [ref=e86]:
+                - generic [ref=e87]: Platform Fee (5%)
+                - generic [ref=e88]: ₹43
+            - generic [ref=e90]:
+              - generic [ref=e91]: Total
+              - generic [ref=e92]: ₹893
+            - button "Processing..." [disabled] [ref=e93]:
+              - img [ref=e94]
+              - text: Processing...
+            - paragraph [ref=e97]:
+              - img [ref=e98]
+              - text: 100% Secure Transaction
+    - contentinfo [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - link "QuickHelp" [ref=e105] [cursor=pointer]:
+              - /url: /
+              - img [ref=e106]
+              - generic [ref=e108]: QuickHelp
+            - paragraph [ref=e109]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e110]:
+              - link [ref=e111] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e112]
+              - link [ref=e114] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e115]
+              - link [ref=e117] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e118]
+          - generic [ref=e121]:
+            - heading "Services" [level=4] [ref=e122]
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - link "Electricians" [ref=e125] [cursor=pointer]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e126]:
+                - link "Plumbers" [ref=e127] [cursor=pointer]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e128]:
+                - link "Carpenters" [ref=e129] [cursor=pointer]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e130]:
+                - link "Cleaners" [ref=e131] [cursor=pointer]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e132]:
+                - link "Painters" [ref=e133] [cursor=pointer]:
+                  - /url: /search?category=painters
+          - generic [ref=e134]:
+            - heading "Company" [level=4] [ref=e135]
+            - list [ref=e136]:
+              - listitem [ref=e137]:
+                - link "About Us" [ref=e138] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e139]:
+                - link "Contact Support" [ref=e140] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e141]:
+                - link "Terms of Service" [ref=e142] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e143]:
+                - link "Privacy Policy" [ref=e144] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e145]:
+            - heading "Contact Info" [level=4] [ref=e146]
+            - list [ref=e147]:
+              - listitem [ref=e148]:
+                - img [ref=e149]
+                - generic [ref=e152]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e153]:
+                - img [ref=e154]
+                - generic [ref=e156]: +1 (555) 123-4567
+              - listitem [ref=e157]:
+                - img [ref=e158]
+                - generic [ref=e161]: support@quickhelp.com
+        - generic [ref=e162]:
+          - paragraph [ref=e163]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e164]:
+            - generic [ref=e165]: Built with reliability
+            - generic [ref=e166]: •
+            - generic [ref=e167]: Secured Payments
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e168]:
+        - img [ref=e170]
+        - generic [ref=e173]: Rajan Kumar added to booking!
+      - listitem [ref=e174]:
+        - img [ref=e176]
+        - generic [ref=e179]: Welcome back!
+```

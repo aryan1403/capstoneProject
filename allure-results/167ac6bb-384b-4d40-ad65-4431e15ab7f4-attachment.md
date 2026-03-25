@@ -1,0 +1,339 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+          - link "My Bookings" [ref=e21] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e22]
+            - text: My Bookings
+        - generic [ref=e26]:
+          - link "1" [ref=e27] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e29]
+            - generic [ref=e33]: "1"
+          - generic [ref=e35]:
+            - link "V Vinay" [ref=e36] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e37]: V
+              - generic [ref=e38]: Vinay
+            - button "Logout" [ref=e39]:
+              - img [ref=e40]
+    - main [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - img "Professional workers" [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - img [ref=e53]
+              - text: Trusted Professionals in Your City
+            - heading "Book expert daily wage workers instantly." [level=1] [ref=e56]
+            - paragraph [ref=e57]: Skip the hassle of finding reliable help. QuickHelp connects you with verified carpenters, plumbers, electricians, and more—ready to work today.
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - img [ref=e60]
+                - textbox "What service do you need?" [active] [ref=e63]: 2026-03-26
+              - button "Search" [ref=e64]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - img [ref=e67]
+                - text: Background Checked
+              - generic [ref=e70]:
+                - img [ref=e71]
+                - text: Upfront Pricing
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - heading "Our Services" [level=2] [ref=e77]
+            - paragraph [ref=e78]: Whatever you need fixed, cleaned, or built, we have a skilled professional ready to help.
+          - generic [ref=e79]:
+            - link "Carpenter" [ref=e80] [cursor=pointer]:
+              - /url: /search?category=carpenter
+              - generic [ref=e81]:
+                - img [ref=e83]
+                - generic [ref=e85]: Carpenter
+            - link "Electrician" [ref=e86] [cursor=pointer]:
+              - /url: /search?category=electrician
+              - generic [ref=e87]:
+                - img [ref=e89]
+                - generic [ref=e91]: Electrician
+            - link "Plumber" [ref=e92] [cursor=pointer]:
+              - /url: /search?category=plumber
+              - generic [ref=e93]:
+                - img [ref=e95]
+                - generic [ref=e98]: Plumber
+            - link "Cleaner" [ref=e99] [cursor=pointer]:
+              - /url: /search?category=cleaner
+              - generic [ref=e100]:
+                - img [ref=e102]
+                - generic [ref=e105]: Cleaner
+            - link "Painter" [ref=e106] [cursor=pointer]:
+              - /url: /search?category=painter
+              - generic [ref=e107]:
+                - img [ref=e109]
+                - generic [ref=e113]: Painter
+            - link "Cook" [ref=e114] [cursor=pointer]:
+              - /url: /search?category=cook
+              - generic [ref=e115]:
+                - img [ref=e117]
+                - generic [ref=e119]: Cook
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - heading "Top Rated Professionals" [level=2] [ref=e124]
+              - paragraph [ref=e125]: Hire the best in the business, verified by our community.
+            - link "View All" [ref=e126] [cursor=pointer]:
+              - /url: /search
+              - text: View All
+              - img [ref=e127]
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - img "Rajan Kumar" [ref=e132]
+                - generic [ref=e134]: Available Now
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - heading "Rajan Kumar" [level=3] [ref=e138]
+                    - paragraph [ref=e139]: Carpenter
+                  - generic [ref=e140]:
+                    - img [ref=e141]
+                    - text: "4.8"
+                - paragraph [ref=e143]: Expert carpenter specializing in furniture repair, custom woodwork, and door/window fitting. Delivers clean and durable finishes.
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - img [ref=e146]
+                    - generic [ref=e149]: 8 years Exp
+                  - generic [ref=e150]:
+                    - img [ref=e151]
+                    - generic [ref=e153]: Verified
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - paragraph [ref=e156]: Per Day
+                    - generic [ref=e157]:
+                      - img [ref=e158]
+                      - text: "850"
+                  - button "Book Now" [ref=e161]
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - img "Suresh Verma" [ref=e164]
+                - generic [ref=e166]: Available Now
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]:
+                    - heading "Suresh Verma" [level=3] [ref=e170]
+                    - paragraph [ref=e171]: Electrician
+                  - generic [ref=e172]:
+                    - img [ref=e173]
+                    - text: "4.7"
+                - paragraph [ref=e175]: Certified electrician handling wiring, switchboard repair, fan installation, and power backup systems. Safety-first approach.
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - img [ref=e178]
+                    - generic [ref=e181]: 10 years Exp
+                  - generic [ref=e182]:
+                    - img [ref=e183]
+                    - generic [ref=e185]: Verified
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - paragraph [ref=e188]: Per Day
+                    - generic [ref=e189]:
+                      - img [ref=e190]
+                      - text: "950"
+                  - button "Book Now" [ref=e193]
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - img "Meena Devi" [ref=e196]
+                - generic [ref=e198]: Available Now
+              - generic [ref=e199]:
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - heading "Meena Devi" [level=3] [ref=e202]
+                    - paragraph [ref=e203]: Cleaner
+                  - generic [ref=e204]:
+                    - img [ref=e205]
+                    - text: "4.9"
+                - paragraph [ref=e207]: Professional house cleaner providing deep cleaning, kitchen scrubbing, bathroom sanitization, and post-event cleanup services.
+                - generic [ref=e208]:
+                  - generic [ref=e209]:
+                    - img [ref=e210]
+                    - generic [ref=e213]: 5 years Exp
+                  - generic [ref=e214]:
+                    - img [ref=e215]
+                    - generic [ref=e217]: Verified
+                - generic [ref=e218]:
+                  - generic [ref=e219]:
+                    - paragraph [ref=e220]: Per Day
+                    - generic [ref=e221]:
+                      - img [ref=e222]
+                      - text: "600"
+                  - button "Book Now" [ref=e225]
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - img "Anil Sharma" [ref=e228]
+                - generic [ref=e230]: Available Now
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - heading "Anil Sharma" [level=3] [ref=e234]
+                    - paragraph [ref=e235]: Plumber
+                  - generic [ref=e236]:
+                    - img [ref=e237]
+                    - text: "4.6"
+                - paragraph [ref=e239]: Skilled plumber for pipe leaks, tap replacement, bathroom fittings, water heater installation, and drain unclogging.
+                - generic [ref=e240]:
+                  - generic [ref=e241]:
+                    - img [ref=e242]
+                    - generic [ref=e245]: 7 years Exp
+                  - generic [ref=e246]:
+                    - img [ref=e247]
+                    - generic [ref=e249]: Verified
+                - generic [ref=e250]:
+                  - generic [ref=e251]:
+                    - paragraph [ref=e252]: Per Day
+                    - generic [ref=e253]:
+                      - img [ref=e254]
+                      - text: "800"
+                  - button "Book Now" [ref=e257]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - img "Priya Nair" [ref=e260]
+                - generic [ref=e262]: Available Now
+              - generic [ref=e263]:
+                - generic [ref=e264]:
+                  - generic [ref=e265]:
+                    - heading "Priya Nair" [level=3] [ref=e266]
+                    - paragraph [ref=e267]: Cook
+                  - generic [ref=e268]:
+                    - img [ref=e269]
+                    - text: "4.9"
+                - paragraph [ref=e271]: Experienced home cook who prepares delicious daily meals, specializing in North Indian and South Indian cuisines. Can handle dietary requirements.
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - img [ref=e274]
+                    - generic [ref=e277]: 6 years Exp
+                  - generic [ref=e278]:
+                    - img [ref=e279]
+                    - generic [ref=e281]: Verified
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - paragraph [ref=e284]: Per Day
+                    - generic [ref=e285]:
+                      - img [ref=e286]
+                      - text: "700"
+                  - button "Book Now" [ref=e289]
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - img "Vikram Singh" [ref=e292]
+                - generic [ref=e294]: Available Now
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - heading "Vikram Singh" [level=3] [ref=e298]
+                    - paragraph [ref=e299]: Painter
+                  - generic [ref=e300]:
+                    - img [ref=e301]
+                    - text: "4.5"
+                - paragraph [ref=e303]: Professional painter for interior and exterior walls. Skilled in Asian Paints, texture painting, and waterproofing. Neat and fast work.
+                - generic [ref=e304]:
+                  - generic [ref=e305]:
+                    - img [ref=e306]
+                    - generic [ref=e309]: 9 years Exp
+                  - generic [ref=e310]:
+                    - img [ref=e311]
+                    - generic [ref=e313]: Verified
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - paragraph [ref=e316]: Per Day
+                    - generic [ref=e317]:
+                      - img [ref=e318]
+                      - text: "900"
+                  - button "Book Now" [ref=e321]
+    - contentinfo [ref=e322]:
+      - generic [ref=e323]:
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - link "QuickHelp" [ref=e326] [cursor=pointer]:
+              - /url: /
+              - img [ref=e327]
+              - generic [ref=e329]: QuickHelp
+            - paragraph [ref=e330]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e331]:
+              - link [ref=e332] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e333]
+              - link [ref=e335] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e336]
+              - link [ref=e338] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e339]
+          - generic [ref=e342]:
+            - heading "Services" [level=4] [ref=e343]
+            - list [ref=e344]:
+              - listitem [ref=e345]:
+                - link "Electricians" [ref=e346] [cursor=pointer]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e347]:
+                - link "Plumbers" [ref=e348] [cursor=pointer]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e349]:
+                - link "Carpenters" [ref=e350] [cursor=pointer]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e351]:
+                - link "Cleaners" [ref=e352] [cursor=pointer]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e353]:
+                - link "Painters" [ref=e354] [cursor=pointer]:
+                  - /url: /search?category=painters
+          - generic [ref=e355]:
+            - heading "Company" [level=4] [ref=e356]
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - link "About Us" [ref=e359] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e360]:
+                - link "Contact Support" [ref=e361] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e362]:
+                - link "Terms of Service" [ref=e363] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e364]:
+                - link "Privacy Policy" [ref=e365] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e366]:
+            - heading "Contact Info" [level=4] [ref=e367]
+            - list [ref=e368]:
+              - listitem [ref=e369]:
+                - img [ref=e370]
+                - generic [ref=e373]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e374]:
+                - img [ref=e375]
+                - generic [ref=e377]: +1 (555) 123-4567
+              - listitem [ref=e378]:
+                - img [ref=e379]
+                - generic [ref=e382]: support@quickhelp.com
+        - generic [ref=e383]:
+          - paragraph [ref=e384]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e385]:
+            - generic [ref=e386]: Built with reliability
+            - generic [ref=e387]: •
+            - generic [ref=e388]: Secured Payments
+  - region "Notifications alt+T"
+```

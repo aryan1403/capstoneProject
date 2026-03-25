@@ -1,0 +1,120 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+          - link "My Bookings" [ref=e21] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e22]
+            - text: My Bookings
+        - generic [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e29]
+          - generic [ref=e34]:
+            - link "V Vinay" [ref=e35] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e36]: V
+              - generic [ref=e37]: Vinay
+            - button "Logout" [ref=e38]:
+              - img [ref=e39]
+    - main [ref=e42]:
+      - generic [ref=e45]:
+        - heading "My Bookings" [level=1] [ref=e46]
+        - paragraph [ref=e47]: Track and manage your service requests
+    - contentinfo [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - link "QuickHelp" [ref=e56] [cursor=pointer]:
+              - /url: /
+              - img [ref=e57]
+              - generic [ref=e59]: QuickHelp
+            - paragraph [ref=e60]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e61]:
+              - link [ref=e62] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e63]
+              - link [ref=e65] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e66]
+              - link [ref=e68] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e69]
+          - generic [ref=e72]:
+            - heading "Services" [level=4] [ref=e73]
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - link "Electricians" [ref=e76] [cursor=pointer]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e77]:
+                - link "Plumbers" [ref=e78] [cursor=pointer]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e79]:
+                - link "Carpenters" [ref=e80] [cursor=pointer]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e81]:
+                - link "Cleaners" [ref=e82] [cursor=pointer]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e83]:
+                - link "Painters" [ref=e84] [cursor=pointer]:
+                  - /url: /search?category=painters
+          - generic [ref=e85]:
+            - heading "Company" [level=4] [ref=e86]
+            - list [ref=e87]:
+              - listitem [ref=e88]:
+                - link "About Us" [ref=e89] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e90]:
+                - link "Contact Support" [ref=e91] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e92]:
+                - link "Terms of Service" [ref=e93] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e94]:
+                - link "Privacy Policy" [ref=e95] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e96]:
+            - heading "Contact Info" [level=4] [ref=e97]
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - img [ref=e100]
+                - generic [ref=e103]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e104]:
+                - img [ref=e105]
+                - generic [ref=e107]: +1 (555) 123-4567
+              - listitem [ref=e108]:
+                - img [ref=e109]
+                - generic [ref=e112]: support@quickhelp.com
+        - generic [ref=e113]:
+          - paragraph [ref=e114]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e115]:
+            - generic [ref=e116]: Built with reliability
+            - generic [ref=e117]: •
+            - generic [ref=e118]: Secured Payments
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e119]:
+        - img [ref=e121]
+        - generic [ref=e124]: Suresh Verma added to booking!
+      - listitem [ref=e125]:
+        - img [ref=e127]
+        - generic [ref=e130]: Welcome back!
+```

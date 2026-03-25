@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+          - link "My Bookings" [ref=e21] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e22]
+            - text: My Bookings
+        - generic [ref=e26]:
+          - link "1" [ref=e27] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e29]
+            - generic [ref=e33]: "1"
+          - generic [ref=e35]:
+            - link "V Vinay" [ref=e36] [cursor=pointer]:
+              - /url: /profile
+              - generic [ref=e37]: V
+              - generic [ref=e38]: Vinay
+            - button "Logout" [ref=e39]:
+              - img [ref=e40]
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - heading "Complete Your Booking" [level=1] [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - heading "1 Selected Professional" [level=2] [ref=e50]:
+                - generic [ref=e51]: "1"
+                - text: Selected Professional
+              - generic [ref=e52]:
+                - img "Rajan Kumar" [ref=e53]
+                - generic [ref=e54]:
+                  - generic [ref=e55]:
+                    - generic [ref=e56]:
+                      - heading "Rajan Kumar" [level=3] [ref=e57]
+                      - paragraph [ref=e58]: Carpenter
+                    - button "Remove from cart" [ref=e59]:
+                      - img [ref=e60]
+                  - generic [ref=e63]:
+                    - generic [ref=e64]:
+                      - img [ref=e65]
+                      - text: Verified Profile
+                    - generic [ref=e68]:
+                      - img [ref=e69]
+                      - text: 8 years Exp
+            - generic [ref=e72]:
+              - heading "2 Select Date" [level=2] [ref=e73]:
+                - generic [ref=e74]: "2"
+                - text: Select Date
+              - generic [ref=e75]:
+                - generic [ref=e76]: When do you need the service?
+                - generic [ref=e77]:
+                  - img
+                  - textbox [active] [ref=e78]: 2026-03-30
+          - generic [ref=e80]:
+            - heading "Booking Summary" [level=3] [ref=e81]
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: Daily Wage
+                - generic [ref=e85]: ₹850
+              - generic [ref=e86]:
+                - generic [ref=e87]: Platform Fee (5%)
+                - generic [ref=e88]: ₹43
+            - generic [ref=e90]:
+              - generic [ref=e91]: Total
+              - generic [ref=e92]: ₹893
+            - button "Proceed to Payment" [ref=e93]:
+              - text: Proceed to Payment
+              - img [ref=e94]
+            - paragraph [ref=e96]:
+              - img [ref=e97]
+              - text: Secure and encrypted checkout
+    - contentinfo [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "QuickHelp" [ref=e104] [cursor=pointer]:
+              - /url: /
+              - img [ref=e105]
+              - generic [ref=e107]: QuickHelp
+            - paragraph [ref=e108]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e109]:
+              - link [ref=e110] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e111]
+              - link [ref=e113] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e114]
+              - link [ref=e116] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e117]
+          - generic [ref=e120]:
+            - heading "Services" [level=4] [ref=e121]
+            - list [ref=e122]:
+              - listitem [ref=e123]:
+                - link "Electricians" [ref=e124] [cursor=pointer]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e125]:
+                - link "Plumbers" [ref=e126] [cursor=pointer]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e127]:
+                - link "Carpenters" [ref=e128] [cursor=pointer]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e129]:
+                - link "Cleaners" [ref=e130] [cursor=pointer]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e131]:
+                - link "Painters" [ref=e132] [cursor=pointer]:
+                  - /url: /search?category=painters
+          - generic [ref=e133]:
+            - heading "Company" [level=4] [ref=e134]
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link "About Us" [ref=e137] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e138]:
+                - link "Contact Support" [ref=e139] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e140]:
+                - link "Terms of Service" [ref=e141] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e142]:
+                - link "Privacy Policy" [ref=e143] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e144]:
+            - heading "Contact Info" [level=4] [ref=e145]
+            - list [ref=e146]:
+              - listitem [ref=e147]:
+                - img [ref=e148]
+                - generic [ref=e151]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e152]:
+                - img [ref=e153]
+                - generic [ref=e155]: +1 (555) 123-4567
+              - listitem [ref=e156]:
+                - img [ref=e157]
+                - generic [ref=e160]: support@quickhelp.com
+        - generic [ref=e161]:
+          - paragraph [ref=e162]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e163]:
+            - generic [ref=e164]: Built with reliability
+            - generic [ref=e165]: •
+            - generic [ref=e166]: Secured Payments
+  - region "Notifications alt+T"
+```
