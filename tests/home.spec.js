@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { homePage } from '../POM/home';
 import { fdatasyncSync } from 'node:fs';
 
+test.use({ storageState: 'storageState.json' });
 test('home page combox testing for cleaning', async ({ page }) => {
   const a = new homePage(page);
   await a.navigate();
@@ -36,7 +37,7 @@ test('home page combox testing for painter', async ({ page }) => {
         
 });
 
-test.skip('home page combox testing for mason', async ({ page }) => {
+test('home page combox testing for mason', async ({ page }) => {
   const a = new homePage(page);
   await a.navigate();
     await page.getByRole('navigation').getByRole('link', { name: 'Services' }).click();

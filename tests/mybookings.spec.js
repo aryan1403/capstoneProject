@@ -1,13 +1,10 @@
 import { test, expect } from '@playwright/test';
 import { login} from '../POM/loginpage';
 
+test.use({ storageState: 'storageState.json' });
 test('test1', async ({ page }) => {
   await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+   
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Plumber',exact: true }).click();
@@ -26,3 +23,4 @@ test('test1', async ({ page }) => {
      await expect(page.getByRole('heading', { name: 'My Bookings' })).toBeVisible();
 
 });
+

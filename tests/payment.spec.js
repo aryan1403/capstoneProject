@@ -1,13 +1,17 @@
 import { test, expect } from '@playwright/test';
 import { login } from '../POM/loginpage';
 
+test.describe('Payment Processing Tests', () => {
+test.use({ storageState: 'storageState.json' });
+
 test('payment processing for carpenter booking', async ({ page }) => {
-  await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-  const c=new login(page);
-  await c.navigate();
-  await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-  await c.submit();
-  await page.waitForLoadState('load');
+ await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
+  // const c=new login(page);
+  // await c.navigate();
+  // await c.fillForm('vinayksgowda123456@gmail.com', '123456');
+  // await c.submit();
+  // await page.waitForLoadState('load');
+
 
   await page.getByRole('link', { name: 'Find Workers' }).click();
   await page.waitForLoadState('load');
@@ -32,13 +36,10 @@ await page.getByRole('textbox', { name: 'MM/YY' }).fill('4567');
   await expect(page.getByText('Booking Confirmed')).toBeVisible();
 });
 
+
 test('payment processing for plumber booking', async ({ page }) => {
   await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-  const c=new login(page);
-  await c.navigate();
-  await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-  await c.submit();
-  await page.waitForLoadState('load');
+  
   await page.getByRole('link', { name: 'Find Workers' }).click();
   await page.waitForLoadState('load');
   await page.getByRole('button', { name: 'Plumber',exact: true }).click();
@@ -57,11 +58,7 @@ test('payment processing for plumber booking', async ({ page }) => {
 
 test('payment processing for electrician booking', async ({ page }) => {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+    
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Electrician', exact: true }).click();
@@ -80,11 +77,7 @@ test('payment processing for electrician booking', async ({ page }) => {
 
 test('payment processing for painter booking', async ({ page }) => {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+   
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Painter', exact: true }).click();
@@ -102,11 +95,7 @@ test('payment processing for painter booking', async ({ page }) => {
 
 test('payment processing for cook booking', async ({ page }) => {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+   
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cook', exact: true }).click();
@@ -124,11 +113,7 @@ test('payment processing for cook booking', async ({ page }) => {
 
 test('payment processing for cleaner booking', async ({ page }) => {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+   
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cleaner', exact: true }).click();
@@ -147,11 +132,7 @@ test('payment processing for cleaner booking', async ({ page }) => {
 test('card details wrong selection',async({page})=>
 {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+    
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cleaner', exact: true }).click();
@@ -169,11 +150,7 @@ test('card details wrong selection',async({page})=>
 test('card details wrong selection 2',async({page})=>
 {
      await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+    
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cleaner', exact: true }).click();
@@ -191,11 +168,7 @@ test('card details wrong selection 2',async({page})=>
 test('payment method upi checking',async({page})=>
 {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+    
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cleaner', exact: true }).click();
@@ -212,11 +185,7 @@ test('payment method upi checking',async({page})=>
 test('upi tesing without details',async({page})=>
 {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+    
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cleaner', exact: true }).click();
@@ -233,11 +202,7 @@ test('upi tesing without details',async({page})=>
 test('payment using cash on delivery',async({page})=>
 {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
-    const c=new login(page);
-    await c.navigate();
-    await c.fillForm('vinayksgowda123456@gmail.com', '123456');
-    await c.submit();
-    await page.waitForLoadState('load');
+   
     await page.getByRole('link', { name: 'Find Workers' }).click();
     await page.waitForLoadState('load');
     await page.getByRole('button', { name: 'Cleaner', exact: true }).click();
@@ -250,3 +215,4 @@ test('payment using cash on delivery',async({page})=>
   await expect(page.getByText('Booking Confirmed')).toBeVisible();
 });
 
+});

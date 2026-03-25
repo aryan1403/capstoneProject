@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { loginPage } from '../POM/login';
 import { signUpPage } from '../POM/signup';
 
+
 [
     {name:"Vinay K S",email:"vinayksgowda123567@gmail.com",phone:"1234567890",password:"vinay@123"},
   {name:"John Doe",email:"test@example.com",phone:"0987654321",password:"password123"},

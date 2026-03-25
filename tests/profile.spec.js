@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { profilePage } from '../POM/profile';
 
+
 [  {name:"Vinay K S",phone:"1234567890"},
   {name:"John Doe",phone:"0987654321"},
   {name:"Jane Smith",phone:"1122334455"},
@@ -30,6 +31,7 @@ test('profile update with empty username shows validation error', async ({ page 
     await c.fillForm('', '9876543210');
     await expect(page.getByText('Name must be at least 2 characters')).toBeVisible();
 }); 
+
 
 test('profile update with empty phone and email shows validation error', async ({ page }) => {
     const c = new profilePage(page);

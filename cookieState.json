@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "GAESA",
+      "value": "CpwBMDBkYTZjZDJjNDE5ZDdlYjdmZjg0OTljZWIzMDA3MDU3MTA2ZDI4Yzc0MmNjZTdlYWE1ZjI5MGM5N2JkYzU4M2U0YzNkYmZhNDhjZWQ3ODA2M2M0NzY1YzZiOGNmNWRhYjA5ZWYzYWY3ZjhkY2E0OTE2MDNhNWEyZmRhNmY2YzcyMTY0NTYzMzhjNDdlMGM2OWY2ZWU2YTQzYTAyEKjK-qPSMw",
+      "domain": "daily-wage-book-1--vinayksgowda44.replit.app",
+      "path": "/",
+      "expires": 1777025773.572451,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userId",
+      "value": "1",
+      "domain": "daily-wage-book-1--vinayksgowda44.replit.app",
+      "path": "/",
+      "expires": 1775038576.345974,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}
