@@ -1,0 +1,123 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Logo TaskMates" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=e9]
+          - generic [ref=e10]: TaskMates
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e13] [cursor=pointer]:
+            - /url: /search
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - link "Sign In" [ref=e16] [cursor=pointer]:
+            - /url: /login
+          - link "Get Started" [ref=e17] [cursor=pointer]:
+            - /url: /register
+            - button "Get Started" [ref=e18]
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - img "Hero Background" [ref=e23]
+          - generic [ref=e26]:
+            - heading "Expert Home Services, Just a Click Away" [level=1] [ref=e27]:
+              - text: Expert Home Services,
+              - text: Just a Click Away
+            - paragraph [ref=e28]: Book verified carpenters, plumbers, electricians, and more. Transparent pricing and instant confirmation.
+            - generic [ref=e29]:
+              - generic:
+                - img
+              - textbox "What service do you need today?" [ref=e30]
+              - button "Search" [ref=e31]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - heading "Our Services" [level=2] [ref=e36]
+              - paragraph [ref=e37]: Choose from our most popular categories
+            - link "View All" [ref=e38] [cursor=pointer]:
+              - /url: /search
+              - text: View All
+              - img [ref=e39]
+          - generic [ref=e41]:
+            - link "Carpenter" [ref=e42] [cursor=pointer]:
+              - /url: /search?category=carpenter
+              - generic [ref=e45]:
+                - img [ref=e47]
+                - generic [ref=e49]: Carpenter
+            - link "Cleaning" [ref=e50] [cursor=pointer]:
+              - /url: /search?category=cleaner
+              - generic [ref=e53]:
+                - img [ref=e55]
+                - generic [ref=e58]: Cleaning
+            - link "Plumbing" [ref=e59] [cursor=pointer]:
+              - /url: /search?category=plumber
+              - generic [ref=e62]:
+                - img [ref=e64]
+                - generic [ref=e67]: Plumbing
+            - link "Electrician" [ref=e68] [cursor=pointer]:
+              - /url: /search?category=electrician
+              - generic [ref=e71]:
+                - img [ref=e73]
+                - generic [ref=e75]: Electrician
+            - link "Painting" [ref=e76] [cursor=pointer]:
+              - /url: /search?category=painter
+              - generic [ref=e79]:
+                - img [ref=e81]
+                - generic [ref=e85]: Painting
+            - link "Laundry" [ref=e86] [cursor=pointer]:
+              - /url: /search?category=washer
+              - generic [ref=e89]:
+                - img [ref=e91]
+                - generic [ref=e94]: Laundry
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - heading "How TaskMates Works" [level=2] [ref=e98]
+            - paragraph [ref=e99]: Get your tasks done in three simple steps
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - img [ref=e104]
+              - heading "Choose Service" [level=3] [ref=e107]
+              - paragraph [ref=e108]: Select from our wide range of services and see transparent pricing upfront.
+            - generic [ref=e109]:
+              - img [ref=e111]
+              - heading "Pick a Time" [level=3] [ref=e114]
+              - paragraph [ref=e115]: Schedule a professional at a date and time that is convenient for you.
+            - generic [ref=e116]:
+              - img [ref=e118]
+              - heading "Relax & Pay" [level=3] [ref=e121]
+              - paragraph [ref=e122]: Our verified professional arrives. Pay securely online after the job is done.
+    - contentinfo [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - img "Logo" [ref=e128]
+            - generic [ref=e129]: TaskMates
+          - paragraph [ref=e130]: Your trusted platform for daily wage services. We connect skilled professionals with households and businesses that need them.
+        - generic [ref=e131]:
+          - heading "Links" [level=4] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "Home" [ref=e135] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e136]:
+              - link "Services" [ref=e137] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=e138]:
+              - link "Contact Us" [ref=e139] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e140]:
+          - heading "Contact" [level=4] [ref=e141]
+          - list [ref=e142]:
+            - listitem [ref=e143]: support@taskmates.com
+            - listitem [ref=e144]: +91 98765 43210
+      - generic [ref=e145]: © 2026 TaskMates. All rights reserved.
+  - region "Notifications (F8)":
+    - list
+```

@@ -2,22 +2,12 @@
   "cookies": [
     {
       "name": "GAESA",
-      "value": "CpwBMDBkYTZjZDJjNDgwMzNiMzE2YzcyZmZmODM5NWFkZWY3NDg1MWI4ZGEwZWVmOTc0NTM4NDI0NGYwNzY0NTE0MTgwN2E5NzgyYTMxMmRkMGZkYjM2YjkxMWQ0NjNhNDE0ZDcxZDIwMDkwMDU5ZjdmZmQxN2UxM2NkYjg2MjU5MjdhNGU2NjQ5YWYxNDNlNjE2MWFmMDE0ODVlNGEzEMXdmKHSMw",
+      "value": "CpwBMDA4YzE1ZmYwODE1NDEzODg4MGJhNTI5MDMyNmM4OGVjNWY5Y2I2NmFiNWFhOTlmYTE0YzIyYzcyZmE1MDNjYWM1YzRkNWUyZTYwMzQ2YTFjNTMxODJkNWExMGViZjg4YTI2NmZkNDU5MDc1ZGE3NTM3NGI3MTU5MTc3M2QzNzM5MmIyZDQ5MGI4NjRlMmE3YTA0MWYzMzg4OWMxEKDi3sDTMw",
       "domain": "daily-wage-book-1--vinayksgowda44.replit.app",
       "path": "/",
-      "expires": 1777019976.242418,
+      "expires": 1777354571.919,
       "httpOnly": false,
       "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "userId",
-      "value": "1",
-      "domain": "daily-wage-book-1--vinayksgowda44.replit.app",
-      "path": "/",
-      "expires": 1775032778.308841,
-      "httpOnly": true,
-      "secure": true,
       "sameSite": "None"
     }
   ],

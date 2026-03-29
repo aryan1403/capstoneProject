@@ -35,6 +35,7 @@ test.skip('login with invalid credentials shows error', async ({ page }) => {
   await expect(page.getByRole('listitem')).toHaveText('Login failedHTTP 401 : Invalid email or password');
 });
 
+
 test('login with empty email shows validation errors', async ({ page }) => {
   const c = new loginPage(page);
   await c.navigate();
@@ -42,6 +43,7 @@ test('login with empty email shows validation errors', async ({ page }) => {
     await c.submit();
     await expect(page.getByText('Invalid email address')).toBeVisible();
 });
+
 test('login with empty password shows validation errors', async ({ page }) => {
   const c = new loginPage(page);
   await c.navigate();

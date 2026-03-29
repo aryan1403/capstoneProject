@@ -8,6 +8,7 @@ export class login {
     
   async navigate() {
     await this.page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
+    
     await this.page.getByRole('button', { name: 'Log In' }).click();
   }
 
