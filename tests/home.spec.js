@@ -58,9 +58,10 @@ test('home page combox testing for laundry', async ({ page }) => {
 });
 
 
-test.use({ storageState: 'storageState.json' });
 
 test.describe('QuickHelp UI Tests (With Stored Session)', () => {
+
+test.use({ storageState: 'storageState.json' });
 
   test.beforeEach(async ({ page }) => {
     await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
