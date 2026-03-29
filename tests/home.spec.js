@@ -57,8 +57,6 @@ test('home page combox testing for laundry', async ({ page }) => {
         expect(page.getByRole('combobox')).toHaveValue('Laundry');
 });
 
-
-
 test.describe('QuickHelp UI Tests (With Stored Session)', () => {
 
 test.use({ storageState: 'storageState.json' });
@@ -134,3 +132,4 @@ test.use({ storageState: 'storageState.json' });
   });
 
 });
+
