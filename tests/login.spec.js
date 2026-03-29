@@ -27,13 +27,6 @@ test(`login with valid credentials for ${obj.email}`,async ({ page }) => {
 });
 });
 
-test.skip('login with invalid credentials shows error', async ({ page }) => {
-  const c = new loginPage(page);
-  await c.navigate();
-  await c.fillForm('invalid@example.com', 'wrongpassword');
-  await c.submit();
-  await expect(page.getByRole('listitem')).toHaveText('Login failedHTTP 401 : Invalid email or password');
-});
 
 
 test('login with empty email shows validation errors', async ({ page }) => {
@@ -60,13 +53,7 @@ test('login with invalid email format shows validation error', async ({ page }) 
     await expect(page.getByText('PasswordForgot password?')).toBeVisible();
 });
 
-test.skip('login with short password shows validation error', async ({ page }) => {
-    const c = new loginPage(page);  
-    await c.navigate();
-    await c.fillForm('test@example.com', 'short');
-    await c.submit();
-  await expect(page.getByRole('listitem')).toHaveText('Login failedHTTP 401 : Invalid email or password');
-});
+
 
 test('login with SQL injection attempt shows error', async ({ page }) => {
     const c = new loginPage(page);  

@@ -1,0 +1,126 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "QuickHelp" [ref=e7]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e11]: QuickHelp
+        - navigation [ref=e12]:
+          - link "Home" [ref=e13]:
+            - /url: /
+            - img [ref=e14]
+            - text: Home
+          - link "Find Workers" [ref=e17]:
+            - /url: /search
+            - img [ref=e18]
+            - text: Find Workers
+        - generic [ref=e21]:
+          - link "1" [ref=e22]:
+            - /url: /cart
+            - img [ref=e24]
+            - generic [ref=e28]: "1"
+          - generic [ref=e30]:
+            - link "Log In" [ref=e31]:
+              - /url: /login
+              - button "Log In" [ref=e32]
+            - link "Sign Up" [ref=e33]:
+              - /url: /register
+              - button "Sign Up" [ref=e34]
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - link "QuickHelp" [ref=e38] [cursor=pointer]:
+            - /url: /
+            - img [ref=e40]
+            - generic [ref=e42]: QuickHelp
+          - heading "Sign in to your account" [level=2] [ref=e43]
+          - paragraph [ref=e44]:
+            - text: Or
+            - link "create a new account" [ref=e45]:
+              - /url: /register
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Email address
+            - textbox [ref=e51]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Password
+            - textbox [ref=e54]
+          - button "Sign in" [ref=e55]
+    - contentinfo [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - link "QuickHelp" [ref=e60]:
+              - /url: /
+              - img [ref=e61]
+              - generic [ref=e63]: QuickHelp
+            - paragraph [ref=e64]: Connecting you with trusted, verified daily wage professionals for all your home and office needs. Quality service, guaranteed.
+            - generic [ref=e65]:
+              - link [ref=e66]:
+                - /url: "#"
+                - img [ref=e67]
+              - link [ref=e69]:
+                - /url: "#"
+                - img [ref=e70]
+              - link [ref=e72]:
+                - /url: "#"
+                - img [ref=e73]
+          - generic [ref=e76]:
+            - heading "Services" [level=4] [ref=e77]
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "Electricians" [ref=e80]:
+                  - /url: /search?category=electricians
+              - listitem [ref=e81]:
+                - link "Plumbers" [ref=e82]:
+                  - /url: /search?category=plumbers
+              - listitem [ref=e83]:
+                - link "Carpenters" [ref=e84]:
+                  - /url: /search?category=carpenters
+              - listitem [ref=e85]:
+                - link "Cleaners" [ref=e86]:
+                  - /url: /search?category=cleaners
+              - listitem [ref=e87]:
+                - link "Painters" [ref=e88]:
+                  - /url: /search?category=painters
+          - generic [ref=e89]:
+            - heading "Company" [level=4] [ref=e90]
+            - list [ref=e91]:
+              - listitem [ref=e92]:
+                - link "About Us" [ref=e93]:
+                  - /url: /about
+              - listitem [ref=e94]:
+                - link "Contact Support" [ref=e95]:
+                  - /url: /contact
+              - listitem [ref=e96]:
+                - link "Terms of Service" [ref=e97]:
+                  - /url: /terms
+              - listitem [ref=e98]:
+                - link "Privacy Policy" [ref=e99]:
+                  - /url: /privacy
+          - generic [ref=e100]:
+            - heading "Contact Info" [level=4] [ref=e101]
+            - list [ref=e102]:
+              - listitem [ref=e103]:
+                - img [ref=e104]
+                - generic [ref=e107]:
+                  - text: 123 Service Avenue, Tech District
+                  - text: New York, NY 10001
+              - listitem [ref=e108]:
+                - img [ref=e109]
+                - generic [ref=e111]: +1 (555) 123-4567
+              - listitem [ref=e112]:
+                - img [ref=e113]
+                - generic [ref=e116]: support@quickhelp.com
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: © 2026 QuickHelp Services. All rights reserved.
+          - generic [ref=e119]:
+            - generic [ref=e120]: Built with reliability
+            - generic [ref=e121]: •
+            - generic [ref=e122]: Secured Payments
+  - region "Notifications alt+T"
+```
