@@ -4,7 +4,7 @@ import { login } from '../POM/loginpage';
 test.describe('Payment Processing Tests', () => {
 test.use({ storageState: 'storageState.json' });
 
-test.only('payment processing for carpenter booking', async ({ page }) => {
+test('payment processing for carpenter booking', async ({ page }) => {
  await page.goto('https://daily-wage-book-1--vinayksgowda44.replit.app/');
   // const c=new login(page);
   // await c.navigate();
